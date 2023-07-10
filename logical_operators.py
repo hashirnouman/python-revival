@@ -26,8 +26,7 @@ AGE = 18
 if AGE >= 18 and AGE < 60:
     print("OK")
 
-#this is same as above
+# this is same as above
 
 if 18 <= AGE < 60:
     print("OK")
-

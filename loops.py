@@ -1,35 +1,35 @@
 """loops"""
 # it will run from 1 till before 4
-successful = True
+SUCCESSFUL = True
 # for number in range(1,4):
 #     print("helo", number , (number ) * "*")
 
 
 # for number in range(3):
 #     print("helo")
-#     if successful:
+#     if SUCCESSFUL:
 #         print('Success')
 #         break
 
 # for else statement
 for number in range(3):
     print("sending email")
-    if successful:
+    if SUCCESSFUL:
         print("Success")
         break
 else:
     print("atempted three times but fail")
 
 # while loop
-command = ""
+COMMAND = ""
 
-# while command.lower() != "quit":
-#     command = input(">")
-#     print("ECHO", command)
+# while COMMAND.lower() != "quit":
+#     COMMAND = input(">")
+#     print("ECHO", COMMAND)
 
 
 while True:
-    command = input(">")
-    print("ECHO", command)
-    if command.lower() == "quit":
+    COMMAND = input(">")
+    print("ECHO", COMMAND)
+    if COMMAND.lower() == "quit":
         break

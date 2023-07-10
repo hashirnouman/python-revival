@@ -1,8 +1,8 @@
 """ variables and data types"""
 ISLOGGEDIN = False
 MYAGE = 23
-course_name = "Python"
-print(len(course_name))
+COURSE_NAME = "Python"
+print(len(COURSE_NAME))
 
-print(course_name[0:])
-print(course_name[:])
+print(COURSE_NAME[0:])
+print(COURSE_NAME[:])
