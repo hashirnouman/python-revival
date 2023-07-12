@@ -1,8 +1,9 @@
-x = input("x: ")
-y = int(x) + 1
-a = 1
-z = str(a)
-print(type(y))
+"""" type conversion """
+X = input("X: ")
+Y = int(X) + 1
+A = 1
+Z = str(A)
+print(type(Y))
 # falsy values
 #  0
 # ""
