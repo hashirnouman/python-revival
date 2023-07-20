@@ -40,4 +40,26 @@ def increment_by(number, by_value=1):
 # Keyword argument it is labeling of parameters it improves readability
 print(increment(2, by_value=5))
 
-print(increment_by(2,12))
+print(increment_by(2, 12))
+
+# *args are used to pass mutiple number of paramerts
+
+
+def total_sum(*number):
+    """find the toal sum"""
+    total = 0
+    for num in number:
+        total += num
+    print(total)
+
+
+total_sum(1, 2, 3, 4, 5)
+
+# **args are used to pass data as dictionery
+
+
+def user_data(**user):
+    """ print the user data"""
+    print(user['name'])
+
+user_data(id=1, name='hashir', age='23')
