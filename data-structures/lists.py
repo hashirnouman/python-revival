@@ -132,10 +132,36 @@ x = map(lambda item: item[1], items)
 print(x)
 
 # so we have to iterate over it
-for i in x:
-    print(i)
+# for i in x:
+#     print(i)
 
 # we can covert directly into list
 x = list(map(lambda item: item[1], items))
+print(x)
 
-print(type(x))
+# filter is similar to map
+# if want to filter items using map it returs output like this [False, False, True]
+y = list(filter(lambda item: item[1] >= 20, items))
+print(y)
+
+# list comprehension is better than map & filter
+# the syntax is clearner and it is more performarmant
+prices = [item[1] for item in items]
+
+# if we want to do filtering
+prices = [item[1] for item in items if item[1] > 20]
+
+# we can print the whole tuple
+prices = [item for item in items if item[1] > 20]
+print(prices)
+
+# if we want to combine two lists in the form of tuples
+# we can use zip()
+list_a = [1, 2, 3]
+list_b = [34, 45, 56]
+print(list(zip(list_a, list_b)))
+
+# if we pass a string as an arguments the string will be spread across the tuple
+print(list(zip('abc', list_a, list_b)))
+
+# if we pass abcd the d won't appear
