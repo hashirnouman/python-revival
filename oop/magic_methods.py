@@ -11,9 +11,9 @@ class Point:
     def __str__(self):
         return f"points are {self.point_x} and {self.point_y}"
 
-    # to compare two objects we use _eq_ method
-    def __eq__(self, val):
-        return self.point_x == val.point_x and self.point_y == val.point_y
+    # to compare two objects we use _eq_ magic method
+    def __eq__(self, second):
+        return self.point_x == second.point_x and self.point_y == second.point_y
 
     def draw(self):
         """print points"""
