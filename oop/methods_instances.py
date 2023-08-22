@@ -5,7 +5,7 @@
 # class attribute is same for all the instances
 
 # instance methods are called with instace/object of class
-# class methods are called via class. These are refered as instance method
+# class methods are called via class
 # class methods are also called factory methods. They return an object
 # there are used to initialize the attributes if attributes
 # if we've to pass multiple values to intilize values then use class methods
