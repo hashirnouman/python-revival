@@ -9,7 +9,7 @@ def caluculate_daily_sales():
 
 
 def calculate_mothly_sales():
-    """to calculate average monthly sales"""
+    """to calculate average monthly sales  """
 
 
 def calculate_yearly_sales():
