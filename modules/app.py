@@ -7,7 +7,7 @@
 # import sys
 import ecom.shopping.sales as sales
 print(dir(sales))
-sales.calculate_tax()
+# sales.calculate_tax()
 print(sales.__name__)
 print(sales.__package__)
 
