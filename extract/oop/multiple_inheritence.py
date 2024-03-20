@@ -10,7 +10,7 @@ class Person:
 
     def greet(self):
         """Greet function"""
-        print('Hello')
+        print("Hello")
 
 
 class Employee:
@@ -18,7 +18,7 @@ class Employee:
 
     def greet(self):
         """Greet function"""
-        print('hello from employee')
+        print("hello from employee")
 
 
 # in this code first it will look for greet function in first base class Person then in Employee
@@ -37,16 +37,16 @@ class Flyer:
     """Flyer class"""
 
     def fly(self):
-        """fly """
-        print('fly')
+        """fly"""
+        print("fly")
 
 
 class Swimmer:
     """Swimmer class class"""
 
     def swim(self):
-        """swim """
-        print('swim')
+        """swim"""
+        print("swim")
 
 
 class Duck(Flyer, Swimmer):

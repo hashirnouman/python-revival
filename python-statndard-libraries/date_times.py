@@ -8,7 +8,7 @@ dt1 = datetime.strptime("2018/1/1", "%Y/%m/%d")
 print(dt1)
 print(dt2 > dt1)
 
-duration = dt2-dt1
+duration = dt2 - dt1
 
 print(duration.days)
 print(duration.total_seconds())

@@ -16,7 +16,7 @@ point = (1, 2) * 3
 point = tuple([1, 24])
 
 # incase of strings we get each charater seprate
-point = tuple('Hello world')
+point = tuple("Hello world")
 
 # we can use index in tuples
 print(point[0:2])

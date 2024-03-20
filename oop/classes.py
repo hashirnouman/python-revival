@@ -4,10 +4,10 @@
 class Point:
     """class for Point"""
 
-# ?Every function in class should have at least on argument self
+    # ?Every function in class should have at least on argument self
     def draw(self):
         """print points"""
-        print('hello')
+        print("hello")
 
 
 point = Point()

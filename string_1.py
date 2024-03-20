@@ -1,4 +1,4 @@
-""" stinrg"""
+"""stinrg"""
 
 FIRSTNAME = "   Hashir"
 LASTNAME = "nouman  "

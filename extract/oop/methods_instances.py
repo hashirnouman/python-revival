@@ -1,4 +1,4 @@
-"""attributes and methods, class vs instances """
+"""attributes and methods, class vs instances"""
 
 # there are two types of attributes class & instance attributes
 # instance attribute is different for different instance or we can say object
@@ -13,7 +13,8 @@
 
 
 class Point:
-    """ Class for Point """
+    """Class for Point"""
+
     # ? default is class attribute
     default = 4
     # ? point_x, point_y are instance attributes
@@ -23,7 +24,7 @@ class Point:
     # ? the below is decorator
     @classmethod
     def zero(cls):
-        """ class method """
+        """class method"""
         return cls(0, 0)
 
     def __init__(self, point_x, point_y):
@@ -31,7 +32,7 @@ class Point:
         self.point_y = point_y
 
     def draw(self):
-        """ print points """
+        """print points"""
         print(f"points are {self.point_x} and {self.point_y}")
 
 

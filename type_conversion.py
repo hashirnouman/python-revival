@@ -1,4 +1,5 @@
-"""" type conversion """
+""" " type conversion"""
+
 X = input("X: ")
 Y = int(X) + 1
 A = 1

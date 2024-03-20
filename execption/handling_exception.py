@@ -1,4 +1,5 @@
-""" Exception handling"""
+"""Exception handling"""
+
 # timeit package it used to calculate excecution time of piece of code
 from timeit import timeit
 # try:
@@ -50,16 +51,16 @@ from timeit import timeit
 
 # finally is use to release external reousrces like files network connection db connection
 try:
-    with open('app.py', encoding="utf-8") as file:
-        print('file opene')
-    age = int(input('Enter age '))
+    with open("app.py", encoding="utf-8") as file:
+        print("file opene")
+    age = int(input("Enter age "))
     xFactor = 10 / age
 except (ValueError, ZeroDivisionError) as err:
-    print('Enter valid age')
+    print("Enter valid age")
     print(err)
     print(type(err))
 else:
-    print('No error')
+    print("No error")
 file.close()
 
 # raising an execption (not advised) because it is costly

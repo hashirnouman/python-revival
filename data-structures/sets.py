@@ -21,7 +21,7 @@ print(first | second)
 print(first & second)
 
 # difference between sets
-print(first-second)
+print(first - second)
 
 # sematic differce
 # returns items in that are in either first or second but not both
@@ -32,4 +32,4 @@ print(first ^ second)
 # check exitence of element in set
 
 if 1 in first:
-    print('Yes')
+    print("Yes")

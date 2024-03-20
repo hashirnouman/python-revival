@@ -4,11 +4,11 @@
 def fizz_buzz(number):
     """Fizz buzz"""
     if (number % 3 == 0) and (number % 5 == 0):
-        return 'FizzBuzz'
+        return "FizzBuzz"
     if number % 3:
-        return 'Fizz'
+        return "Fizz"
     if number % 5 == 0:
-        return 'Buzz'
+        return "Buzz"
     return number
 
 

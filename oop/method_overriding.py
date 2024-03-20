@@ -1,16 +1,17 @@
 """Method_overriding"""
 # Method overriding means replacing or extending the method of base class
 
+
 class Animal:
     """animal beahvour class"""
 
     def __init__(self):
         self.age = 1
-        print('Animal construtor')
+        print("Animal construtor")
 
     def eat(self):
         """eat"""
-        print('eat')
+        print("eat")
 
 
 class Mamal(Animal):
@@ -18,12 +19,12 @@ class Mamal(Animal):
 
     def __init__(self):
         super().__init__()
-        print('Mamal contructor')
+        print("Mamal contructor")
         self.weight = 1
 
     def walk(self):
         """walk"""
-        print('walk')
+        print("walk")
 
 
 m = Mamal()

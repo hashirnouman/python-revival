@@ -1,5 +1,7 @@
 """Queue"""
+
 from collections import deque
+
 queue = deque([])
 queue.append(1)
 queue.append(2)
@@ -9,4 +11,4 @@ print(queue)
 
 # check if queue is empty
 if not queue:
-    print('Queue is empty')
+    print("Queue is empty")

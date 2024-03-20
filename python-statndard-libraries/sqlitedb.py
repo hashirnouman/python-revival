@@ -1,7 +1,8 @@
 import sqlite3
 import json
 from pathlib import Path
-movies = json.loads(Path('movies.json').read_text())
+
+movies = json.loads(Path("movies.json").read_text())
 
 # the connect method is used to connect to db if file doesn't exits it will create
 
@@ -12,7 +13,7 @@ movies = json.loads(Path('movies.json').read_text())
 #     conn.commit()
 
 
-with sqlite3.connect('moviesdb.sqlite3') as conn:
+with sqlite3.connect("moviesdb.sqlite3") as conn:
     COMMAND = "SELECT * FROM Movies"
     cursor = conn.execute(COMMAND)
     # for row in cursor:

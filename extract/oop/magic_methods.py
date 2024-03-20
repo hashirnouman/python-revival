@@ -1,4 +1,4 @@
-""" Magic methods """
+"""Magic methods"""
 
 
 class Point:

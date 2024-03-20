@@ -1,4 +1,5 @@
 """Working with jsons"""
+
 import json
 from pathlib import Path
 # movies = [
@@ -13,9 +14,8 @@ from pathlib import Path
 # data = json.dumps(movies)
 # Path('movies.json').write_text(data)
 
-result = Path('movies.json').read_text()
+result = Path("movies.json").read_text()
 # parse the json
 movies = json.loads(result)
 for i, _ in enumerate(movies):
-
-    print(movies[i]['title'])
+    print(movies[i]["title"])

@@ -1,6 +1,7 @@
-""" Lists """
-letters = ['a', 'b', 'c', 'd', 'e', 'f']
-letters[0] = 'A'
+"""Lists"""
+
+letters = ["a", "b", "c", "d", "e", "f"]
+letters[0] = "A"
 
 # matrix is two dimentional list
 martix = [[0, 1], [1, 2]]
@@ -14,25 +15,34 @@ print(letters[::2])
 
 # sperating each list item and assigning them to a variable is called list unpacking
 
-name = ['Hashir', 'Nouman', 'Qazi']
+name = ["Hashir", "Nouman", "Qazi"]
 first, middle, last = name
 print(first)
 
 # if we want to unpack few elements of list
-number = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+number = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+]
 one, two, *others = number
 print(one, two)
 print(*others)
 
 # iteration through lists
 
-alphabets = ['a', 'b', 'c']
+alphabets = ["a", "b", "c"]
 for alphabet in alphabets:
     print(alphabet)
 
 # if we want to print index of each element in list we can use built-in function called enumerate
 for alphabet in enumerate(alphabets):
-
     # if we do print(alphabet) it will return tuple of element with it's index like this (0,a)
     # if we print alphabet[0] it will print only index & alphabet[1] only print element
     print(alphabet[0], alphabet[1])
@@ -44,10 +54,10 @@ for index, alphabet in enumerate(alphabets):
 # Adding  items in lists
 
 # append() add new new item at the end of list
-letters.append('x')
+letters.append("x")
 
 # insert item add new element at the specified index you must pass index or it will throw exception
-letters.insert(0, 'y')
+letters.insert(0, "y")
 print(letters)
 
 # Removing items in lists
@@ -57,7 +67,7 @@ print(letters)
 letters.pop(0)
 
 # remove() is used when you know the element & don't know the index
-letters.remove('b')
+letters.remove("b")
 
 # del is also used to remove elements from lists
 # the main difference is we can remove multiple items from list
@@ -68,15 +78,15 @@ letters.clear()
 print(letters)
 
 # finding items in lists
-list_1 = ['a', 'b', 'c']
+list_1 = ["a", "b", "c"]
 # index() is used to return the index of the given element
 # print(list_1.index('a'))
 
 # if we pass 'd' in the above it will throw error to prevent this we can use the following methods
 
 # this will run in 'd' exists in list_1
-if 'd' in list_1:
-    print(list_1.index('d'))
+if "d" in list_1:
+    print(list_1.index("d"))
 
 # the count() is also helpful it returns the total occurences of element in list
 # if you don't pass any argument in count() it will throw exception
@@ -106,7 +116,7 @@ print(sorted(ids, reverse=True))
 # if you want to sort a list of tuple
 # then it will not be sorted with sort() or sorted()
 # you have to make a function
-items = [('Porduct1', 19), ('Product2', 12), ('Products3', 31)]
+items = [("Porduct1", 19), ("Product2", 12), ("Products3", 31)]
 
 
 def sort_items(item):
@@ -114,7 +124,9 @@ def sort_items(item):
     return item[1]
 
 
-items.sort(key=sort_items, )
+items.sort(
+    key=sort_items,
+)
 print(items)
 
 # lambda functions are the anonymus functions.

@@ -9,7 +9,7 @@ class Animal:
 
     def eat(self):
         """eat"""
-        print('eat')
+        print("eat")
 
 
 class Mamal(Animal):
@@ -17,7 +17,7 @@ class Mamal(Animal):
 
     def walk(self):
         """walk"""
-        print('walk')
+        print("walk")
 
 
 class Fish(Animal):
@@ -25,7 +25,7 @@ class Fish(Animal):
 
     def swim(self):
         """swim"""
-        print('swim')
+        print("swim")
 
 
 m = Mamal()

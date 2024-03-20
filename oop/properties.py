@@ -39,7 +39,7 @@ class Product:
     def set_price(self, value):
         """Setter"""
         if value < 0:
-            raise ValueError('Price cannot be negative')
+            raise ValueError("Price cannot be negative")
         self.__price = value
 
 

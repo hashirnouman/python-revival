@@ -3,14 +3,15 @@
 
 class Point:
     """class for Point"""
-# constructor is declared by following approach
-# this type of function '__init__' is called magic function
+
+    # constructor is declared by following approach
+    # this type of function '__init__' is called magic function
 
     def __init__(self, point_x, point_y):
         self.point_x = point_x
         self.point_y = point_y
 
-# ?Every function in class should have at least on argument self
+    # ?Every function in class should have at least on argument self
 
     def draw(self):
         """print points"""

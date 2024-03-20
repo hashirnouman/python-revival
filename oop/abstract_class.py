@@ -21,12 +21,12 @@ class Stream(ABC):
     def open_stream(self):
         """open method"""
         if self.open:
-            raise InvalidOperatiornError('Stream Already open')
+            raise InvalidOperatiornError("Stream Already open")
 
     def close_stream(self):
         """open method"""
         if self.open:
-            raise InvalidOperatiornError('Stream Already open')
+            raise InvalidOperatiornError("Stream Already open")
 
     @abstractmethod
     def read(self):
@@ -38,7 +38,7 @@ class FileStream(Stream):
 
     def read(self):
         """read method"""
-        print('Reading from file stream')
+        print("Reading from file stream")
 
 
 class NetWorkStream(Stream):
@@ -46,7 +46,7 @@ class NetWorkStream(Stream):
 
     def read(self):
         """read method"""
-        print('Reading from network stream')
+        print("Reading from network stream")
 
 
 n = NetWorkStream()

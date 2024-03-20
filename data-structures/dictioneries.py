@@ -1,4 +1,5 @@
-""" Dictioneries is python data structures to store data in key value pair """
+"""Dictioneries is python data structures to store data in key value pair"""
+
 from sys import getsizeof
 # First way to declare dictionery
 # points = {'x': 1, 'y': 2}
@@ -42,9 +43,9 @@ from sys import getsizeof
 # dictioneries comprehension
 # we can use comprehension with list sets and dictioneries
 # if we see an empty dictionery being iterated and values are added then we should use comprehension
-val = {x*2 for x in range(1, 5)}
+val = {x * 2 for x in range(1, 5)}
 print(val)
 
 # if we use comprehensions with tuples we get generator object
-val = (x*2 for x in range(10000000000))
-print('size', getsizeof(val))
+val = (x * 2 for x in range(10000000000))
+print("size", getsizeof(val))

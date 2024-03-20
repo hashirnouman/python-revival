@@ -9,7 +9,7 @@ class TagCloud:
 
     def add(self, tag):
         """add new tag"""
-        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0)+1
+        self.tags[tag.lower()] = self.tags.get(tag.lower(), 0) + 1
 
     def __getitem__(self, tag):
         return self.tags.get(tag.lower(), 0)

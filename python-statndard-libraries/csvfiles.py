@@ -1,4 +1,5 @@
 """CSV fiiles"""
+
 import csv
 # to write in csv file
 # with open('data.csv', 'w', ) as file:
@@ -8,7 +9,7 @@ import csv
 #     writer.writerow(['Mutahar Nouman', 27])
 
 # read from csv
-with open('data.csv') as file:
+with open("data.csv") as file:
     reader = csv.reader(file)
     # if the for loop after print won't run because the cursor was at the start
     # but conversion to list with list() method will put curosr at the end of file

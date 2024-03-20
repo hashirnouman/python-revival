@@ -1,4 +1,4 @@
-""" logical operators"""
+"""logical operators"""
 
 HIGH_INCOME = True
 GOOD_CREDEIT = False

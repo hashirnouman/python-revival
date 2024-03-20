@@ -1,4 +1,5 @@
-""" variables and data types"""
+"""variables and data types"""
+
 ISLOGGEDIN = False
 MYAGE = 23
 COURSE_NAME = "Python"

@@ -1,39 +1,39 @@
-""" functions"""
+"""functions"""
 
 # function
 
 
 def greet(first_name, last_name):
-    """ function to print greeting messages"""
-    print('hello')
-    print(f'You are talented {first_name},{last_name}')
+    """function to print greeting messages"""
+    print("hello")
+    print(f"You are talented {first_name},{last_name}")
 
 
-greet('Hashir', 'Nouman')
+greet("Hashir", "Nouman")
 
 # if we pass greet in function like this in print function is will
 #  print the lines and also print None. None is an object that represents absence of values
 # the None is being showed in terminal because greet function is returning nothing
-print(greet('Hashir', 'Nouman'))
+print(greet("Hashir", "Nouman"))
 
 
 def get_greeting(name):
-    """ Function """
-    return f'The name is {name}'
+    """Function"""
+    return f"The name is {name}"
 
 
-MESSAGE = get_greeting('Hashir Nouman')
-file = open(file='content.txt', mode='w', encoding='utf-8')
+MESSAGE = get_greeting("Hashir Nouman")
+file = open(file="content.txt", mode="w", encoding="utf-8")
 file.write(MESSAGE)
 
 
 def increment(number, by_value):
-    """" Increment by_value function"""
+    """ " Increment by_value function"""
     return number + by_value
 
 
 def increment_by(number, by_value=1):
-    """" Increment by_value function"""
+    """ " Increment by_value function"""
     return number + by_value
 
 
@@ -59,7 +59,8 @@ total_sum(1, 2, 3, 4, 5)
 
 
 def user_data(**user):
-    """ print the user data"""
-    print(user['name'])
+    """print the user data"""
+    print(user["name"])
 
-user_data(id=1, name='hashir', age='23')
+
+user_data(id=1, name="hashir", age="23")

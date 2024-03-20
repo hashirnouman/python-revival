@@ -2,19 +2,19 @@
 
 
 class TextBox:
-    """ text box class"""
+    """text box class"""
 
     def draw(self):
         """text box draw mthod"""
-        print('Textbox draw')
+        print("Textbox draw")
 
 
 class DropDownList:
-    """ Dropdwpm class class"""
+    """Dropdwpm class class"""
 
     def draw(self):
         """Dropdown class draw method"""
-        print('Dropdown draw')
+        print("Dropdown draw")
 
 
 def draw(controls):

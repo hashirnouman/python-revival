@@ -1,4 +1,5 @@
 """Conditionals"""
+
 TEMPRATURE = 10
 
 # if TEMPRATURE > 30:
